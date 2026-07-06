@@ -20,3 +20,8 @@ Este conjunto de análisis combina estadística descriptiva, visualización, ind
 - **Dashboard interactivo**
 - **Modelo predictivo del resultado de la conciliación**
 - **Conclusiones y recomendaciones**
+
+## 🛡️ Licencia
+
+Este proyecto esta bajo la licencia [MIT License](LICENSE). Puedes usar, modificar y compartir este proyecto con el debido reconocimiento del autor.
+Hi there! I'm **Edgar Martinez**
