@@ -10,7 +10,7 @@ Consta de de una sola tabla para metricas específicas.
 - **Propósito:** Almacena información detallada de los reportes, enriquecida con datos de proveedores, .
 - **Columnas:**
 
-| Column Name           | Data Type     | Description                                                                                                             |
+| Nombre de la Columna  | Tipo de Dato  | Descripción                                                                                                             |
 |-----------------------|---------------|-------------------------------------------------------------------------------------------------------------------------|
 | expediente            | NVARCHAR(85)  | Identificador único asignado al caso registrado.                                                                        |
 |	medio_ingreso         | NVARCHAR(85)  | Medio de ingreso de la queja (Correo Electrónico, Escrito, Personal).                                                   |
