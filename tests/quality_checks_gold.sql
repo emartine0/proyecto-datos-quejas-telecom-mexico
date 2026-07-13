@@ -15,6 +15,10 @@ Notas de Uso:
 
 -- Verificar la dimensión de cada columna.
 
+SELECT DISTINCT
+	procedimientos
+FROM gold.quejas_telecom
+
 /*
 	En la columna 'procedimientos' 
 	existen dos entradas similares 'Conciliación por Medios Electrónicos'
