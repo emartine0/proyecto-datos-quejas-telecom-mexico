@@ -1,15 +1,61 @@
 /*
-===============================================================================
-Quality Checks
-===============================================================================
-Script Purpose:
-    This script performs quality checks to validate the integrity, consistency, 
-    and accuracy of the Gold Layer. These checks ensure:
-    - Uniqueness of surrogate keys in dimension tables.
-    - Referential integrity between fact and dimension tables.
-    - Validation of relationships in the data model for analytical purposes.
+===============================================================================================
+Control de Calidad
+===============================================================================================
+Proposito del Codigo:
+    Este script realiza varias comprobaciones de calidad para garantizar 
+    la integridad, la consistencia y la exactitud de los datos en la capa
+    "gold". Incluye comprobaciones de:
+    - Validación de las relaciones en el modelo de datos para propositos análisticos.
 
-Usage Notes:
-    - Investigate and resolve any discrepancies found during the checks.
-===============================================================================
+Notas de Uso:
+    - Investigar y resolver cualquier discrepancia que se encuentre durante las verificaciones.
+===============================================================================================
+*/
+
+-- Verificar la dimensión de cada columna.
+
+---
+
+-- Verificar la consistencia entre las fechas.
+
+SELECT
+	expediente,
+	fecha_ingreso,
+	fecha_cierre,
+	DATEDIFF(day, fecha_ingreso, fecha_cierre) AS diferencia_fechas_dias
+FROM gold.quejas_telecom
+WHERE DATEDIFF(day, fecha_ingreso, fecha_cierre) < 0
+
+-- Verificar la consistencia en las columnas con tipo de datos INT
+-- Solo hay dos tipos de datos INT y NULL
+
+SELECT
+	*
+FROM gold.quejas_telecom
+WHERE costo_bien_servicio IS NULL -- (IS NOT NULL)
+
+/*
+    2800 NULL
+    29840 NOT NULL
+*/
+    
+SELECT
+	*
+FROM gold.quejas_telecom
+WHERE monto_reclamado IS NULL -- (IS NOT NULL)
+
+/*
+    28 NULL
+    32612 NOT NULL
+*/
+    
+SELECT
+	*
+FROM gold.quejas_telecom
+WHERE monto_recuperado IS NULL -- (IS NOT NULL)
+
+/*
+    1477 NULL
+    31163 NOT NULL
 */
