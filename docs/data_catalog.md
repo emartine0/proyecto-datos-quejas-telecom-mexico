@@ -13,14 +13,14 @@ Consta de de una sola tabla para metricas específicas.
 | Nombre de la Columna  | Tipo de Dato  | Descripción                                                                                                             |
 |-----------------------|---------------|-------------------------------------------------------------------------------------------------------------------------|
 | expediente            | NVARCHAR(85)  | Identificador único asignado al caso registrado.                                                                        |
-|	medio_ingreso         | NVARCHAR(85)  | Medio de ingreso de la queja (Correo Electrónico, Escrito, Personal).                                                   |
-|	estado_procesal       | NVARCHAR(85)  | Situación procesal del expediente (Conciliada, No conciliada, Desistimiento, etc.).                                     |
-|	tipo_reclamacion      | NVARCHAR(85)  | Tipo general de afectación reportada por la persona consumidora.                                                        |
+|	medio_ingreso         | NVARCHAR(85)  | Medio de ingreso de la queja (Correo Electrónico, Escrito, Personal, Teléfono, Internet).                               |
+|	estado_procesal       | NVARCHAR(85)  | Situación procesal del expediente (Conciliada, No conciliada, Desistimiento, Improcedente, Cancelada).                  |
+|	tipo_reclamacion      | NVARCHAR(85)  | Tipo general de afectación reportada por la persona consumidora (Portabilidad, Contratos, Garantías, etc).              |
 |	motivo_reclamacion    | NVARCHAR(85)  | Descripción principal y específica del motivo de la reclamación.                                                        |
-|	fecha_ingreso         | NVARCHAR(85)  | Fecha de Ingreso,Fecha en que el expediente fue registrado.                                                             |
-|	fecha_cierre          | NVARCHAR(85)  | Fecha de conclusión administrativa del expediente. Puede ser nula si sigue abierto.                                     |
-|	tipo_conciliacion     | NVARCHAR(85)  | Mecanismo de atención aplicado (Telefónica, Presencial, Concilianet, etc.).                                             |
-|	procedimiento         | NVARCHAR(85)  | Indica el canal o mecanismo a través del cual se llevó a cabo la conciliación de la queja. Puede corresponder a medios electrónicos, atención personal en oficina, vía telefónica o queja tradicional. |
+|	fecha_ingreso         | NVARCHAR(85)  | Fecha en que el expediente fue registrado. Con formato YYYY-MM-DD (2022-05-04)                                          |
+|	fecha_cierre          | NVARCHAR(85)  | Fecha de conclusión administrativa del expediente. Puede ser nula si sigue abierto. Con formato YYYY-MM-DD (2022-05-04) |
+|	tipo_conciliacion     | NVARCHAR(85)  | Mecanismo de atención aplicado (Telefónica, Personal P/seg, Medios Electronícos).                                       |
+|	procedimiento         | NVARCHAR(85)  | Indica el canal o mecanismo a través del cual se llevó a cabo la conciliación de la queja. (medios electrónicos, atención personal en oficina, vía telefónica o queja tradicional). |
 |	monto_reclamado       | NVARCHAR(85)  | Indica el valor monetario total que la persona consumidora reclama o solicita recuperar en el expediente, expresado en moneda nacional (pesos mexicanos, MXN). |
 |	monto_recuperado      | NVARCHAR(85)  | Indica el importe total que la persona consumidora recuperó a su favor como resultado del proceso conciliatorio o de la gestión de PROFECO, expresado en moneda nacional (pesos mexicanos, MXN). |
 |	proveedor             | NVARCHAR(85)  | Denominación o razón social del proveedor.                                                                              |
