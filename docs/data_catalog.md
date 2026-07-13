@@ -7,7 +7,7 @@ Consta de de una sola tabla para metricas específicas.
 ---
 
 ### **gold.quejas_telecom**
-- **Propósito:** Almacena información detallada de los reportes, enriquecida con datos de proveedores, .
+- **Propósito:** Almacena información detallada de los reportes, enriquecida con datos de proveedores, productos y oficina de atención.
 - **Columnas:**
 
 | Nombre de la Columna  | Tipo de Dato  | Descripción                                                                                                             |
