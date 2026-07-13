@@ -712,7 +712,7 @@ WHERE costo_bien_servicio = '0'
     Para los otros tipos de reclamacion NO ES CLARO que deban tener
     asignado un valor de '0', pero si es claro que necesitan un valor
     estandar y como es una columna numerica se le asignara tambien NULL.
-    Also we will convert the column in a FLOAT data type.
+    Tambien convertiremos la columna a typo de dato FLOAT.
 */
 
 --======================================================================================================
