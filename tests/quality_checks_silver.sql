@@ -1,6 +1,22 @@
---######################################################################################################
---################################## LIMPIEZA Y FILTRADO CAPA 'Silver' #################################
---######################################################################################################
+/*
+===============================================================================================
+Control de Calidad
+===============================================================================================
+Proposito del Codigo:
+    Este script realiza varias comprobaciones de calidad para garantizar 
+    la coherencia, la precisión y la estandarización de los datos en la capa
+    "silver". Incluye comprobaciones de:
+    - Claves primarias nulas o duplicadas.
+    - Espacios no deseados en campos de cadena.
+    - Estandarización y coherencia de los datos.
+    - Rangos de fechas no válidos.
+    - Coherencia de los datos entre campos relacionados.
+
+Notas de Uso:
+    - Ejecuta estas comprobaciones despues de cargar los datos a la capa 'silver.
+    - Investigar y resolver cualquier discrepancia que se encuentre durante las verificaciones.
+===============================================================================================
+*/
 
 --======================================================================================================
 --================================== COLUMNA 1 expediente ==============================================
