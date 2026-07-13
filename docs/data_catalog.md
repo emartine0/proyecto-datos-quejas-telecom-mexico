@@ -26,10 +26,10 @@ Consta de de una sola tabla para metricas específicas.
 |	proveedor             | NVARCHAR(85)  | Denominación o razón social del proveedor.                                                                              |
 |	nombre_comercial      | NVARCHAR(85)  | Nombre comercial con el que el proveedor se identifica ante el público.                                                 |
 |	giro                  | NVARCHAR(85)  | Describe la actividad económica específica o principal del proveedor involucrado en la queja o expediente.              |
-|	tipo_producto         | NVARCHAR(85)  | Identifica la naturaleza o condición del bien o servicio objeto de la queja, permite distinguir si se trata de un producto físico (nuevo, usado o reconstruido) o de un servicio, ya sea normal o adicional/conexo al bien adquirido. |
+|	tipo_producto         | NVARCHAR(85)  | Identifica la naturaleza o condición del bien o servicio objeto de la queja: producto físico (nuevo, usado o reconstruido); o de un servicio (normal o adicional/conexo al bien adquirido). |
 |	clase                 | NVARCHAR(85)  | Indica si el expediente corresponde a la adquisición o contratación de un bien tangible o de un servicio.               |
-|	modalidad_compra      | NVARCHAR(85)  | Indica el medio o canal a través del cual la persona consumidora realizó la adquisición del bien o contratación del servicio. |
-|	modalidad_pago        | NVARCHAR(85)  | Indica la forma o esquema financiero mediante el cual la persona consumidora efectuó el pago o adquirió el compromiso de pago del bien o servicio. |
+|	modalidad_compra      | NVARCHAR(85)  | Indica el medio o canal a través del cual la persona consumidora realizó la adquisición del bien o contratación del servicio (Por internet, Por teléfono, Por correo, etc). |
+|	modalidad_pago        | NVARCHAR(85)  | Indica la forma o esquema financiero mediante el cual la persona consumidora efectuó el pago o adquirió el compromiso de pago del bien o servicio (Plazos, Apartado, Contado, etc). |
 |	costo_bien_servicio   | NVARCHAR(85)  | Indica el importe total del bien o servicio adquirido que dio origen a la queja o expediente, expresado en moneda nacional (pesos mexicanos, MXN).  |
 |	odeco                 | NVARCHAR(85)  | Oficina de Defensa del Consumidor que atendió la queja.                                                                 |
 |	estado                | NVARCHAR(85)  | Entidad federativa en la que se atendió la queja o se realizó el procedimiento conciliatorio. En los casos en que la atención se lleve a cabo mediante oficinas centrales o a través de medios remotos (por internet, telefónicos o electrónicos), se deberá registrar la Dirección General responsable de la atención. |
