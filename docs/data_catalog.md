@@ -10,17 +10,28 @@ Consta de de una sola tabla para metricas específicas.
 - **Propósito:** Almacena información detallada de los reportes, enriquecida con datos de proveedores, .
 - **Columnas:**
 
-| Column Name      | Data Type     | Description                                                                                   |
-|------------------|---------------|-----------------------------------------------------------------------------------------------|
-| customer_key     | INT           | Surrogate key uniquely identifying each customer record in the dimension table.               |
-| customer_id      | INT           | Unique numerical identifier assigned to each customer.                                        |
-| customer_number  | NVARCHAR(50)  | Alphanumeric identifier representing the customer, used for tracking and referencing.         |
-| first_name       | NVARCHAR(50)  | The customer's first name, as recorded in the system.                                         |
-| last_name        | NVARCHAR(50)  | The customer's last name or family name.                                                     |
-| country          | NVARCHAR(50)  | The country of residence for the customer (e.g., 'Australia').                               |
-| marital_status   | NVARCHAR(50)  | The marital status of the customer (e.g., 'Married', 'Single').                              |
-| gender           | NVARCHAR(50)  | The gender of the customer (e.g., 'Male', 'Female', 'n/a').                                  |
-| birthdate        | DATE          | The date of birth of the customer, formatted as YYYY-MM-DD (e.g., 1971-10-06).               |
-| create_date      | DATE          | The date and time when the customer record was created in the system|
-
+| Column Name           | Data Type     | Description                                                                                                             |
+|-----------------------|---------------|-------------------------------------------------------------------------------------------------------------------------|
+| expediente            | NVARCHAR(85)  | Identificador único asignado al caso registrado.                                                                        |
+|	medio_ingreso         | NVARCHAR(85)  | Medio de ingreso de la queja (Correo Electrónico, Escrito, Personal).                                                   |
+|	estado_procesal       | NVARCHAR(85)  | Situación procesal del expediente (Conciliada, No conciliada, Desistimiento, etc.).                                     |
+|	tipo_reclamacion      | NVARCHAR(85)  | Tipo general de afectación reportada por la persona consumidora.                                                        |
+|	motivo_reclamacion    | NVARCHAR(85)  | Descripción principal y específica del motivo de la reclamación.                                                        |
+|	fecha_ingreso         | NVARCHAR(85)  | Fecha de Ingreso,Fecha en que el expediente fue registrado.                                                             |
+|	fecha_cierre          | NVARCHAR(85)  | Fecha de conclusión administrativa del expediente. Puede ser nula si sigue abierto.                                     |
+|	tipo_conciliacion     | NVARCHAR(85)  | Mecanismo de atención aplicado (Telefónica, Presencial, Concilianet, etc.).                                             |
+|	procedimiento         | NVARCHAR(85)  | Indica el canal o mecanismo a través del cual se llevó a cabo la conciliación de la queja. Puede corresponder a medios electrónicos, atención personal en oficina, vía telefónica o queja tradicional. |
+|	monto_reclamado       | NVARCHAR(85)  | Indica el valor monetario total que la persona consumidora reclama o solicita recuperar en el expediente, expresado en moneda nacional (pesos mexicanos, MXN). |
+|	monto_recuperado      | NVARCHAR(85)  | Indica el importe total que la persona consumidora recuperó a su favor como resultado del proceso conciliatorio o de la gestión de PROFECO, expresado en moneda nacional (pesos mexicanos, MXN). |
+|	proveedor             | NVARCHAR(85)  | Denominación o razón social del proveedor.                                                                              |
+|	nombre_comercial      | NVARCHAR(85)  | Nombre comercial con el que el proveedor se identifica ante el público.                                                 |
+|	giro                  | NVARCHAR(85)  | Describe la actividad económica específica o principal del proveedor involucrado en la queja o expediente.              |
+|	tipo_producto         | NVARCHAR(85)  | Identifica la naturaleza o condición del bien o servicio objeto de la queja, permite distinguir si se trata de un producto físico (nuevo, usado o reconstruido) o de un servicio, ya sea normal o adicional/conexo al bien adquirido. |
+|	clase                 | NVARCHAR(85)  | Indica si el expediente corresponde a la adquisición o contratación de un bien tangible o de un servicio.               |
+|	modalidad_compra      | NVARCHAR(85)  | Indica el medio o canal a través del cual la persona consumidora realizó la adquisición del bien o contratación del servicio. |
+|	modalidad_pago        | NVARCHAR(85)  | Indica la forma o esquema financiero mediante el cual la persona consumidora efectuó el pago o adquirió el compromiso de pago del bien o servicio. |
+|	costo_bien_servicio   | NVARCHAR(85)  | Indica el importe total del bien o servicio adquirido que dio origen a la queja o expediente, expresado en moneda nacional (pesos mexicanos, MXN).  |
+|	odeco                 | NVARCHAR(85)  | Oficina de Defensa del Consumidor que atendió la queja.                                                                 |
+|	estado                | NVARCHAR(85)  | Entidad federativa en la que se atendió la queja o se realizó el procedimiento conciliatorio. En los casos en que la atención se lleve a cabo mediante oficinas centrales o a través de medios remotos (por internet, telefónicos o electrónicos), se deberá registrar la Dirección General responsable de la atención. |
+|	md_fecha_creacion     | DATETIME2     | Fecha y tiempo en que el registro del expediente fue creado en el sistema.                                              |
 ---
