@@ -108,6 +108,7 @@ BEGIN
                  ELSE medio_ingreso
             END AS medio_ingreso,
             CASE WHEN medio_ingreso = 'Bien' OR medio_ingreso = 'Servicio' THEN medio_ingreso
+				 WHEN clase = 'Sin dato' OR clase = '-' THEN 'n/a'
                  ELSE clase
             END AS clase,
             CASE WHEN tipo_producto = 'Sin dato' OR tipo_producto = '-' THEN 'n/a'
