@@ -34,7 +34,7 @@ BEGIN
 		FROM 'C:\Users\emartine\Documents\DSProjects\QuejasTelecom\quejas_telecom.csv'
 		WITH (
 			FIRSTROW = 2,
-			FIELDTERMINATOR = '",',
+			FIELDTERMINATOR = '","',
 			CODEPAGE = '65001',
 			TABLOCK
 		);
