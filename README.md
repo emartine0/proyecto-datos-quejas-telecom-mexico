@@ -4,19 +4,19 @@ Este conjunto de análisis combina estadística descriptiva, visualización, ind
 
 ...
 
-## 📋 Objetivo #1 (Preparación de los Datos)
+## 📋 Objetivo #1 (Preparación de los Datos - SQL)
 - **Fuente de los Datos**: Los datos son importados desde un archivo CVS
 - **Calidad de los Datos**: Limpiar y preparar los datos antes del análisis.
 - **Documentación**: Proveer documentación clara del modelo para los usuarios.
 
-## 📊 Objetivo #2 (Análisis de Datos)
+## 📊 Objetivo #2 (Análisis de Datos -  Python)
 - **Análisis exploratorio (EDA)**
 - **Análisis temporal de las quejas**
 - **Ranking de proveedores**
 - **Tiempo de resolución y eficiencia**
 - **Principales motivos de reclamación**
 
-## 📈 Objetivo #3 (Visualizacion y Predicción de Resultados)
+## 📈 Objetivo #3 (Visualizacion y Predicción de Resultados - Tableau)
 - **Dashboard interactivo**
 - **Modelo predictivo del resultado de la conciliación**
 - **Conclusiones y recomendaciones**
