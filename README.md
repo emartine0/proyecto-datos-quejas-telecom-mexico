@@ -1,6 +1,6 @@
 # Proyecto de Datos sobre Quejas en Telecomunicaciones
 
-Este conjunto de análisis combina el análisis exploratorio,el análisis avanzado y la visualización, mostrando un flujo de trabajo completo sobre un conjunto de datos reales.
+Este proyecto combina el análisis exploratorio, el análisis avanzado y la visualización de datos, mostrando un flujo de trabajo completo sobre un conjunto de datos reales sobre quejas en el area de telecomunicaciones.
 
 > ⚠️ **Aviso:** 
 > Este proyecto fue desarrollado con fines educativos y de aprendizaje y se encuentra actualmente en fase de revisión y optimización. Tenga en cuenta que el código SQL y la estructura en Tableau contienen oportunidades de mejora y algunos errores conocidos. Estoy trabajando activamente en corregirlos.
