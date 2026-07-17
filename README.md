@@ -1,5 +1,12 @@
 # Proyecto de Datos sobre Quejas en Telecomunicaciones
 
+> ⚠️ **Aviso:** 
+> Este proyecto fue desarrollado con fines educativos y de aprendizaje y se encuentra actualmente en fase de revisión y optimización. Tenga en cuenta que el código SQL y la estructura en Tableau contienen oportunidades de mejora y algunos errores conocidos. Estoy trabajando activamente en corregirlos.
+
+### 🛠️ Errores Conocidos y Próximas Mejoras
+- **SQL:** Debido a la alta dimensionalidad de algunas columnas, muchas entradas pueden aparecer como diferentes aunque en realidad sean la misma. Esto es debido a la acentuación, a la distinción entre mayusculas y minusculas 
+- **Tableau:** --
+
 Este conjunto de análisis combina estadística descriptiva, visualización, indicadores de desempeño y aprendizaje automático, mostrando un flujo de trabajo completo de ciencia de datos sobre un conjunto de datos reales.
 
 ...
@@ -9,17 +16,16 @@ Este conjunto de análisis combina estadística descriptiva, visualización, ind
 - **Calidad de los Datos**: Limpiar y preparar los datos antes del análisis.
 - **Documentación**: Proveer documentación clara del modelo para los usuarios.
 
-## 📊 Objetivo #2 (Análisis de Datos -  Python)
+## 📊 Objetivo #2 (Análisis de Datos -  SQL)
 - **Análisis exploratorio (EDA)**
+- **Análisis de Datos Avanzado (ADA)**
+
+## 📈 Objetivo #3 (Visualizacion - Tableau)
+- **Dashboard interactivo**
 - **Análisis temporal de las quejas**
 - **Ranking de proveedores**
 - **Tiempo de resolución y eficiencia**
 - **Principales motivos de reclamación**
-
-## 📈 Objetivo #3 (Visualizacion y Predicción de Resultados - Tableau)
-- **Dashboard interactivo**
-- **Modelo predictivo del resultado de la conciliación**
-- **Conclusiones y recomendaciones**
 
 ## 🛡️ Licencia
 
