@@ -8,6 +8,7 @@ Este conjunto de análisis combina el análisis exploratorio,el análisis avanza
 > 🛠️ *Errores Conocidos y Próximas Mejoras*
 > 
 >  *SQL:* Debido a la alta dimensionalidad de algunas columnas, muchas entradas pueden aparecer como diferentes aunque en realidad sean la misma. Esto es debido a la acentuación, a la distinción entre mayusculas y minusculas y errores tipográficos.
+> 
 >  *Tableau:* -- 
 
 ## 📋 Objetivo #1 (Preparación de los Datos - SQL)
