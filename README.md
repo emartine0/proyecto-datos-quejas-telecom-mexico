@@ -6,7 +6,8 @@ Este conjunto de análisis combina el análisis exploratorio,el análisis avanza
 > Este proyecto fue desarrollado con fines educativos y de aprendizaje y se encuentra actualmente en fase de revisión y optimización. Tenga en cuenta que el código SQL y la estructura en Tableau contienen oportunidades de mejora y algunos errores conocidos. Estoy trabajando activamente en corregirlos.
 > 
 > 🛠️ *Errores Conocidos y Próximas Mejoras*
->  *SQL:* Debido a la alta dimensionalidad de algunas columnas, muchas entradas pueden aparecer como diferentes aunque en realidad sean la misma. Esto es debido a la acentuación, a la distinción entre mayusculas y minusculas
+> 
+>  *SQL:* Debido a la alta dimensionalidad de algunas columnas, muchas entradas pueden aparecer como diferentes aunque en realidad sean la misma. Esto es debido a la acentuación, a la distinción entre mayusculas y minusculas y errores tipográficos.
 >  *Tableau:* -- 
 
 ## 📋 Objetivo #1 (Preparación de los Datos - SQL)
