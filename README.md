@@ -1,13 +1,12 @@
 # Proyecto de Datos sobre Quejas en Telecomunicaciones
 
+Este conjunto de análisis combina el análisis exploratorio,el análisis avanzado y la visualización, mostrando un flujo de trabajo completo sobre un conjunto de datos reales.
+
 > ⚠️ **Aviso:** 
 > Este proyecto fue desarrollado con fines educativos y de aprendizaje y se encuentra actualmente en fase de revisión y optimización. Tenga en cuenta que el código SQL y la estructura en Tableau contienen oportunidades de mejora y algunos errores conocidos. Estoy trabajando activamente en corregirlos.
-> ### 🛠️ Errores Conocidos y Próximas Mejoras
+> 🛠️ *Errores Conocidos y Próximas Mejoras*
 >  **SQL:** Debido a la alta dimensionalidad de algunas columnas, muchas entradas pueden aparecer como diferentes aunque en realidad sean la misma. Esto es debido a la acentuación, a la distinción entre mayusculas y minusculas
->  **Tableau:** --
-
-Este conjunto de análisis combina el análisis exploratorio,el análisis avanzado y la visualización, mostrando un flujo de trabajo completo sobre un conjunto de datos reales.
-...
+>  **Tableau:** -- 
 
 ## 📋 Objetivo #1 (Preparación de los Datos - SQL)
 - **Fuente de los Datos**: Los datos son importados desde un archivo CVS
