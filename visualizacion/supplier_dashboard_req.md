@@ -1,14 +1,15 @@
 # Historia de Usuario 
 ## Introducción
-Esta historia de usuario esboza las especificaciones para crear un tablero usando tableau para ayudar a las partes interesadas
-a analizar el comportamiento de las quejas en el sector de telecomunicaciones en México.
+Esta historia de usuario esboza las especificaciones para crear un tablero usando tableau, con el propósito de
+ayudar a las partes interesadas a analizar el comportamiento de las quejas en el sector de telecomunicaciones en México.
 
-Customer Dashboard | Requirements
-Dashboard Purpose
-The customer dashboard aims to provide an overview of customer data, trends and behaviors. It will help marketing teams and management to understand customer segments and improve customer satisfaction.
+## Tablero de Proveedores | Requisitos
+### Propósito del Tablero
+El objetivo del tablero de proveedores es proporcionar un resumen de los datos de los proveedores, tendencias y comportamientos.
+Este, a su vez, ayudara a las partes interesadas a entender segmentos de proveedores y mejorar atención al cliente.
 
-Key Requirements
-KPI Overview
+### Requisitos  Clave
+#### Descripción General de los Indicadores Clave de Desempeño (KPIs)
 Display a summary of total number of customers , total sales per customer and total number of orders for the current year and the previous year.
 
 Customer Trends
