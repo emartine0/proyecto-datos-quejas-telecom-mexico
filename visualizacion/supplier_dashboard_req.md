@@ -1,4 +1,4 @@
-# Historia de Usuario 
+# Historia de Usuario | Proveedores
 ## Introducción
 Esta historia de usuario esboza las especificaciones para crear un tablero usando tableau, con el propósito de
 ayudar a las partes interesadas a analizar el comportamiento de las quejas en el sector de telecomunicaciones en México.
