@@ -5,14 +5,14 @@ ayudar a las partes interesadas a analizar el comportamiento de las quejas en el
 
 ## Tablero de Proveedores | Requisitos
 ### Propósito del Tablero
-El objetivo del tablero de proveedores de bienes y servicios de telecomunicaciones es proporcionar un resumen de los datos de los proveedores y comportamientos. El cual, a su vez, ayudara a las partes interesadas a comprender los  segmentos de proveedores y posiblemente mejorar la atención al cliente.
+El objetivo del tablero de proveedores, en quejas en bienes y servicios de telecomunicaciones, es proporcionar un resumen de los datos sobre las quejas hacia los proveedores y comportamientos de estas. El cual, a su vez, ayudara a las partes interesadas a comprender los segmentos de proveedores y posiblemente mejorar la atención al cliente.
 
 ### Requisitos  Clave
 #### Descripción General de los Indicadores Clave de Desempeño (KPIs)
-Mostrar un resumen del número total de proveedores con quejas y el promedio del tiempo de resolución para el año en curso y el anterior. 
+Mostrar el número total de proveedores con quejas y el promedio del tiempo de resolución para el año en curso y el anterior. 
 
 #### Tendencias de los Proveedores
-- Presentar los datos para cada KPI de manera mensual para año en curso y el anterior.
+- Presentar los datos para cada KPI de manera mensual para el año en curso y el anterior.
 - Identificar los meses con el número de quejas más alto y más bajo, y que sean fáciles de identificar.
 
 #### Distribución de Proveedores por Número de Quejas.
