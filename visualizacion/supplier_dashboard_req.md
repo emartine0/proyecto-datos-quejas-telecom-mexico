@@ -10,6 +10,7 @@ Este, a su vez, ayudara a las partes interesadas a entender segmentos de proveed
 
 ### Requisitos  Clave
 #### Descripción General de los Indicadores Clave de Desempeño (KPIs)
+Mostrar un resumen del número total de proveedores con quejas, total de quejas por proveedor y 
 Display a summary of total number of customers , total sales per customer and total number of orders for the current year and the previous year.
 
 Customer Trends
