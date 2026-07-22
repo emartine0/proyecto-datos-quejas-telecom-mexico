@@ -9,7 +9,7 @@ El objetivo del tablero de proveedores, en quejas en bienes y servicios de telec
 
 ## Requisitos  Clave
 ### Descripción General de los Indicadores Clave de Desempeño (KPIs)
-Mostrar el número total de proveedores con quejas y el promedio del tiempo de resolución para el año en curso y el anterior. 
+Mostrar el número total de quejas, el numero total de proveedores (con quejas) y el promedio de quejas por proveedor para el año en curso y el anterior. 
 
 ### Tendencias de los Proveedores
 - Presentar los datos para cada KPI de manera mensual para el año en curso y el anterior.
@@ -20,14 +20,12 @@ Representar la distribución de los proveedores basada en el número de quejas q
 
 ### Top 10 Proveedores por Número de Quejas
 - Mostrar el Top 10 de proveedores que han generado el mayor número de quejas.
-
 - Mostrar información adicional como el rango, número de quejas, tiempo de resolución y ultima fecha de queja.
 
 ### Requisitos de Diseño e Interacción
 
 #### Tablero Dinamico
 - El tablero debe permitir a los usuarios verificar registros historicos, ofreciendoles la flexibilidad de seleccionar el año deseado.
-
 - Hacer que las tablas y los graficos sean interactivos, y permitir que los usuarios filtren los datos usando las tablas.
 
 #### Filtros de Datos
