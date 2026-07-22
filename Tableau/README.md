@@ -6,7 +6,7 @@
 ---
 
 ## 🖥️ Enlace Interactico al Tablero en Tableau Public ![Dashboard Preview](tablero_quejas_telecom.jpg)
-https://public.tableau.com/app/profile/edgar.martinez3401/viz/QuejasProveedoresTelecomunicaciones/TablerodeProveedores
+https://public.tableau.com/views/QuejasProveedoresTelecomunicaciones/TablerodeProveedores?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 ---
 
 ## 📂 Estructura
