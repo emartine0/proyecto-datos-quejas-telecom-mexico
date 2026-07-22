@@ -49,7 +49,7 @@ proyecto-datos-quejas-telecom-mexico/
 │   ├── silver/                         # Scripts para limpiar y transformar los datos
 │   ├── gold/                           # Scripts para crear modelos analiticos
 │
-├── tests/                              # Scripts para pruebas and calidad de los datos
+├── pruebas/                              # Scripts para pruebas and calidad de los datos
 │
 ├── README.md                           # Descripción general del proyecto e instrucciones
 └── LICENSE                             # Información de la licencia del repositorio
