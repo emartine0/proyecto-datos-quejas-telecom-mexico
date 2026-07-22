@@ -30,29 +30,35 @@ La arquitectura de datos para este proyecto sigue la Arquitectura Medallion con 
 - **Ranking de proveedores**
 - **Principales motivos de reclamación**
 
-## 📂 Repository Structure
+## 📂 Estructura del Repositorio
 ```
 proyecto-datos-quejas-telecom-mexico/
-│
-├── datos/                              # Conjunto de datos sin procesar  para el proyecto
-│
-├── docs/                               # Documentacion y detalles del proyecto
-│   ├── etl.drawio                      # Draw.io file shows all different techniquies and methods of ETL
-│   ├── data_architecture.drawio        # Draw.io file shows the project's architecture
-│   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
-│   ├── data_flow.drawio                # Draw.io file for the data flow diagram
-│   ├── data_models.drawio              # Draw.io file for data models (star schema)
-│   ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
-│
-├── scripts/                            # SQL scripts para ETL y transformaciones
-│   ├── bronze/                         # Scripts para cargar y extraer los datos sin procesar
-│   ├── silver/                         # Scripts para limpiar y transformar los datos
-│   ├── gold/                           # Scripts para crear modelos analiticos
-│
-├── pruebas/                              # Scripts para pruebas and calidad de los datos
-│
-├── README.md                           # Descripción general del proyecto e instrucciones
-└── LICENSE                             # Información de la licencia del repositorio
+|
+├── SQL/
+|   │
+|   ├── datos/                              # Conjunto de datos sin procesar  para el proyecto
+|   │
+|   ├── docs/                               # Documentacion y detalles del proyecto
+|   │   ├── data_catalog.md                 # Catalogo del conjunto de datos, incluyendo descripciones de los campos y metadatos
+|   │   └── naming-conventions.md           # Directrices consistentes para nombrar archivos, tablas y columnas
+|   │
+|   ├── scripts/                            # SQL scripts para ETL y transformaciones
+|   │   ├── bronze/                         # Scripts para cargar y extraer los datos sin procesar
+|   │   ├── silver/                         # Scripts para limpiar y transformar los datos
+|   │   └── gold/                           # Scripts para crear modelos analiticos
+|   │
+|   └── pruebas/                            # Scripts para pruebas and calidad de los datos
+|
+├── Tableau/
+|   ├── tablero_quejas_telecom.jpg          # Screenshot del tablero
+|   ├── tablero_quejas_telecom.twbx         # El archivo del workbook de Tableau
+|   ├── quejas_telecom.csv                  # El conjunto de datos utilizado para la visualización
+|   ├── historia_usuario.md                 # Requerimientos del usuario final
+|   └── README.md                           # Descripción general del proyecto y enlace al tablero
+|
+│   
+├── README.md                               # Descripción general del proyecto e instrucciones
+└── LICENSE                                 # Información de la licencia del repositorio
 ```
 ---
 
