@@ -20,6 +20,7 @@ SQL/
 ├── datos/                              # Conjunto de datos sin procesar  para el proyecto
 │
 ├── docs/                               # Documentacion y detalles del proyecto
+│   ├── prov_nomb_problemas.xlsx        # Lista de problemas entre proveedores y sus nombres comerciales
 │   ├── data_catalog.md                 # Catalogo del conjunto de datos, incluyendo descripciones de los campos y metadatos
 │   └── naming-conventions.md           # Directrices consistentes para nombrar archivos, tablas y columnas
 │
