@@ -15,8 +15,9 @@ Mostrar el número total de quejas, el numero total de proveedores (con quejas) 
 - Presentar los datos para cada KPI de manera mensual para el año en curso y el anterior.
 - Identificar los meses con el número de quejas más alto y más bajo, y que sean fáciles de identificar.
 
-### Distribución de Proveedores por Número de Quejas.
-Representar la distribución de los proveedores basada en el número de quejas que tienen para identificar su comportamiento.
+### Categorías y subcategorías de las Quejas
+– Comparar el comportamiento de las quejas por diferentes tipos para el año en curso y el anterior.
+– Incluir una comparación de las quejas conciliadas.
 
 ### Top 10 Proveedores por Número de Quejas
 - Mostrar el Top 10 de proveedores que han generado el mayor número de quejas.
