@@ -1,8 +1,13 @@
+## Enlace Interactico al Tablero en Tableau Public
+https://public.tableau.com/app/profile/edgar.martinez3401/viz/QuejasProveedoresTelecomunicaciones/TablerodeProveedores
+
+## Vista anticipada al Tablero ![Dashboard Preview](dashboard_preview.png)
+
 ## 📈 Tableau (Visualizacion)
 - **Dashboard interactivo**
 - **Análisis temporal de las quejas**
 - **Ranking de proveedores**
-- **Principales motivos de reclamación**
+- **Principales tipos y motivos de reclamación**
 
 ## 📂 Estructura
 ```
