@@ -3,7 +3,7 @@
 Esta historia de usuario esboza las especificaciones para crear un tablero usando tableau, con el propósito de
 ayudar a las partes interesadas a analizar el comportamiento de las quejas en el sector de telecomunicaciones en México.
 
-## Tablero de Proveedores | Requisitos
+## Tablero de Quejas-Proveedores | Requisitos
 ### Propósito del Tablero
 El objetivo del tablero de proveedores, en quejas en bienes y servicios de telecomunicaciones, es proporcionar un resumen de los datos sobre las quejas hacia los proveedores y comportamientos de estas. El cual, a su vez, ayudara a las partes interesadas a comprender los segmentos de proveedores y posiblemente mejorar la atención al cliente.
 
