@@ -1,4 +1,7 @@
-    # **Naming Conventions**
+# **Naming Conventions**
+
+> ⚠️ **Aviso:** 
+> Este archivo (md) se encuentra actualmente en fase de revisión.
 
 This document outlines the naming conventions used for schemas, tables, views, columns, and other objects in the data warehouse.
 
